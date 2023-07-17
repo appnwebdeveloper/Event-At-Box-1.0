@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104"><defs><style>.a {
+  fill: #fff;
+  opacity: 0;
+}
+
+.b {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2.5px;
+  fill-rule: evenodd;
+}
+
+</style></defs><g transform="translate(-196 -3248.25)"><rect class="a" width="104" height="104" transform="translate(196 3248.25)"></rect><g transform="translate(-777 -4953.25)"><g transform="translate(1001 8238.5)"><g transform="translate(0 0)"><path class="b" d="M69.719,57.1v4.783a2.937,2.937,0,0,1-2.931,2.941H24.931A2.938,2.938,0,0,1,22,61.883V57.1a7.459,7.459,0,0,0,0-14.376V37.941A2.937,2.937,0,0,1,24.931,35H66.788a2.938,2.938,0,0,1,2.931,2.941v4.783a7.459,7.459,0,0,0,0,14.376Z" transform="translate(-22 -34.337)"></path><path d="M58.22,34h2.651V64.487H58.22ZM39,46.593V43.942H53.581v2.651Zm0,7.953V51.895h8.616v2.651Z" transform="translate(-27.733 -34)"></path></g></g></g></g></svg>

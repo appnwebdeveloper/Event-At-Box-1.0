@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><defs><style>.a, .c {
+  fill: #fff;
+}
+
+.a {
+  opacity: 0;
+}
+
+.b, .f {
+  fill: none;
+}
+
+.b {
+  stroke: #000;
+  stroke-width: 2.5px;
+  fill-rule: evenodd;
+}
+
+.d {
+  fill: #ff6809;
+  stroke: #fff;
+  stroke-width: .25px;
+}
+
+.e {
+  stroke: none;
+}
+
+</style></defs><g transform="translate(-725 -2457.25)"><path class="a" d="M0,0H68V68H0Z" transform="translate(725 2457.25)"></path><g transform="translate(735.355 2475.596)"><g transform="translate(0 0)"><g transform="translate(-0.355)"><path class="b" d="M69.126,56.826v4.723a2.9,2.9,0,0,1-2.895,2.9H24.895A2.9,2.9,0,0,1,22,61.549V56.826a7.366,7.366,0,0,0,0-14.2V37.9A2.9,2.9,0,0,1,24.895,35H66.232a2.9,2.9,0,0,1,2.895,2.9v4.723a7.366,7.366,0,0,0,0,14.2Z" transform="translate(-22 -34.345)"></path></g><rect class="c" width="19" height="15" transform="translate(8.645 8.03)"></rect><g transform="translate(16.644 9.984)"><g class="d"><rect class="e" width="13.312" height="2.773"></rect><rect class="f" x="0.125" y="0.125" width="13.062" height="2.523"></rect></g><g class="d" transform="translate(0 7.765)"><rect class="e" width="8.874" height="2.773"></rect><rect class="f" x="0.125" y="0.125" width="8.624" height="2.523"></rect></g></g></g></g></g></svg>

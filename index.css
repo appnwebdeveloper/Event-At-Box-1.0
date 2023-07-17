@@ -33,10 +33,12 @@
 .nav-item ul li {
     list-style: none;
     padding: 0 16px;
+    font-weight: 500;
 }
 
 .log-in {
     padding-right: 32px;
+    font-weight: 500;
 }
 
 .sell-tickets-main-wrapper {
@@ -453,6 +455,10 @@
 
 .sell-process p b {
     font-size: var(--font-size-5xl);
+}
+
+.sell-process p span{
+    font-size: var(--font-size-base);
 }
 
 .cost-breakdown-section {
