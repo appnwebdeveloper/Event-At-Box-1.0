@@ -1,5 +1,4 @@
 .main-container {
-  width: 1440px;
   margin: 0 auto;
 }
 
@@ -65,13 +64,12 @@
 }
 
 .discover-events-section {
-  width: 1440px;
   position: relative;
 }
 
 .mask-group-6108 {
-  object-fit: cover;
-  width: 1440px;
+  object-fit: fill;
+  width: 100%;
   height: 600px;
 }
 
@@ -85,8 +83,9 @@
   line-height: 6rem;
   display: flex;
   position: absolute;
-  top: 72px;
-  left: 394px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .eventatbox {
@@ -99,13 +98,16 @@
   color: var(--color-darkgray);
   border: 0;
   outline: none;
-  width: 1280px;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 160px);
   height: 88px;
+  margin: 0 80px;
   padding-left: 78px;
   font-size: 1rem;
+  display: flex;
   position: absolute;
-  top: 440.25px;
-  left: 80px;
+  top: 73%;
 }
 
 .search-wrapper {
@@ -321,8 +323,7 @@
 }
 
 .mask-group-6107 {
-  object-fit: cover;
-  width: 1280px;
+  width: 100%;
   height: 300px;
 }
 
@@ -404,7 +405,7 @@
 
 .sell-tickets-section {
   background-color: #f7f7f7;
-  padding: 50px 125px;
+  padding: 50px 80px;
 }
 
 .sell-tickets h1 {
@@ -460,7 +461,7 @@
 
 .cost-breakdown-section {
   background-color: #d2d2e699;
-  padding: 50px 125px;
+  padding: 50px 80px;
 }
 
 .cost-breakdown h1 {
@@ -511,12 +512,16 @@
 }
 
 .connect-with-us-section {
-  width: 1440px;
   height: 470px;
 }
 
 .become-a-partner {
   position: relative;
+}
+
+.become-a-partner img {
+  width: 100%;
+  height: 470px;
 }
 
 .connect-with-us {
@@ -564,6 +569,7 @@
   background-color: var(--color-whitesmoke-100);
   border-radius: var(--br-5xl);
   border: 0;
+  outline: none;
   width: 408px;
   height: 48px;
   padding: 0 0 0 20px;
