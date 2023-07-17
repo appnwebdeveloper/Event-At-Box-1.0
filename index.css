@@ -509,7 +509,7 @@
     text-align: center;
 }
 
-.cost-breakdown-process p b,
+.cost-breakdown-process p b,p
 span {
     font-size: var(--font-size-xl);
 }

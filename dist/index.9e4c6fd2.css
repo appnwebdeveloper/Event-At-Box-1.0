@@ -506,7 +506,7 @@
   display: flex;
 }
 
-.cost-breakdown-process p b, span {
+.cost-breakdown-process p b, p span {
   font-size: var(--font-size-xl);
 }
 
