@@ -308,6 +308,8 @@
     border-radius: 50%;
 }
 
+.slick-list{padding:0 15% 0 0 !important;}
+
 .wishlist {
     width: 24px !important;
     height: 24px !important;
@@ -529,6 +531,14 @@
     height: 104px;
 }
 
+/* .arrow {
+    width: 109px !important;
+} */
+
+.small-arrow {
+    display: none;
+}
+
 .sell-process p {
     display: flex;
     flex-direction: column;
@@ -621,7 +631,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 720px;
-    height: 295px;
+    /* height: 295px; */
     color: var(--color-white);
     text-align: center;
 }
@@ -632,6 +642,7 @@
     font-weight: 700;
     color: var(--color-orangered-100);
     text-align: center;
+    margin-top: 0;
 }
 
 .connect-with-us h1 {
@@ -873,7 +884,14 @@
     }
 
     .arrow {
-        transform: rotate(90deg)
+        transform: rotate(90deg);
+        display: none;
+    }
+
+    .small-arrow{
+        display: block;
+        width: auto !important;
+        height: auto !important;
     }
 
     .cost-breakdown-process ul {
@@ -954,6 +972,10 @@
         margin: 0 20px;
     }
 
+    .about-us-section {
+        padding: 50px 80px;
+    }
+
     .about-us-section img {
         margin-bottom: 30px;
     }
@@ -964,11 +986,16 @@
 
     .about-us-section div b {
         margin-bottom: 10px;
-        font-weight: normal;
+        /* font-weight: normal; */
     }
 
     .social-media span {
         align-items: flex-start;
+        line-height: 16px;
+    }
+
+    .social-media span img {
+        margin-bottom: 10px;
     }
 
 }
@@ -1089,6 +1116,15 @@
         padding: 0 20px;
     }
 
+    .trending-events-image-wrapper {
+        border-radius: var(--br-5xs);
+        background-color: var(--color-whitesmoke-200);
+        width: 300px;
+        width: 100%;
+        position: relative;
+        margin: 31.75px 20px 0 0 ;
+    }
+
     .cards-offer-section {
         padding: 10px 20px;
         display: flex;
@@ -1189,6 +1225,16 @@
         align-items: flex-start;
     }
 
+    .arrow {
+        display: none;
+    }
+
+    .small-arrow {
+        display: block;
+        width: auto !important;
+        height: auto !important;
+    }
+
     .cost-breakdown-section {
         background-color: #d2d2e699;
         padding: 20px 10px;
@@ -1224,7 +1270,7 @@
     }
 
     .cost-breakdown-process div {
-        margin-left: 20px;
+        /* margin-left: 20px; */
         align-items: flex-start;
     }
 
@@ -1302,11 +1348,16 @@
         margin: 0;
     }
 
-    .event-at-box-black-icon {
+    /* .event-at-box-black-icon {
         margin-bottom: 24px;
+    } */
+
+    .about-us-section div b {
+        /* margin-bottom: 10px; */
+        font-weight: normal;
     }
 
     .about-us-section div {
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
 }

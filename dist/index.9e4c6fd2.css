@@ -286,6 +286,10 @@
   background-color: #fff !important;
 }
 
+.slick-list {
+  padding: 0 15% 0 0 !important;
+}
+
 .wishlist {
   position: absolute;
   top: 10px;
@@ -502,6 +506,10 @@
   height: 104px;
 }
 
+.small-arrow {
+  display: none;
+}
+
 .sell-process p {
   text-align: center;
   flex-direction: column;
@@ -588,7 +596,6 @@
   color: var(--color-white);
   text-align: center;
   width: 720px;
-  height: 295px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -599,6 +606,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-orangered-100);
   text-align: center;
+  margin-top: 0;
   font-weight: 700;
   line-height: 24px;
 }
@@ -815,7 +823,14 @@
   }
 
   .arrow {
+    display: none;
     transform: rotate(90deg);
+  }
+
+  .small-arrow {
+    display: block;
+    width: auto !important;
+    height: auto !important;
   }
 
   .cost-breakdown-process ul {
@@ -889,6 +904,10 @@
     margin: 0 20px;
   }
 
+  .about-us-section {
+    padding: 50px 80px;
+  }
+
   .about-us-section img {
     margin-bottom: 30px;
   }
@@ -899,11 +918,15 @@
 
   .about-us-section div b {
     margin-bottom: 10px;
-    font-weight: normal;
   }
 
   .social-media span {
     align-items: flex-start;
+    line-height: 16px;
+  }
+
+  .social-media span img {
+    margin-bottom: 10px;
   }
 }
 
@@ -1011,6 +1034,14 @@
     padding: 0 20px;
   }
 
+  .trending-events-image-wrapper {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-200);
+    width: 100%;
+    margin: 31.75px 20px 0 0;
+    position: relative;
+  }
+
   .cards-offer-section {
     justify-content: center;
     padding: 10px 20px;
@@ -1109,6 +1140,16 @@
     align-items: flex-start;
   }
 
+  .arrow {
+    display: none;
+  }
+
+  .small-arrow {
+    display: block;
+    width: auto !important;
+    height: auto !important;
+  }
+
   .cost-breakdown-section {
     background-color: #d2d2e699;
     padding: 20px 10px;
@@ -1145,7 +1186,6 @@
 
   .cost-breakdown-process div {
     align-items: flex-start;
-    margin-left: 20px;
   }
 
   .connect-with-us-section {
@@ -1219,12 +1259,12 @@
     margin: 0;
   }
 
-  .event-at-box-black-icon {
-    margin-bottom: 24px;
+  .about-us-section div b {
+    font-weight: normal;
   }
 
   .about-us-section div {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 }
 

@@ -40,7 +40,7 @@
                 </button>
             </div>
             <div class="sidemenu-icon">
-                <img src="./public/Icon.png" alt="">
+                <img src="./public/Icon.svg" alt="">
             </div>
         </div>
 
@@ -182,7 +182,7 @@
 
         <section class="cards-offer-section">
             <img class="bank-offer-desktop" alt="" src="./public/Bank-Offer.png" />
-            <img class="bank-offer-mobile" alt="" src="./public/Bank Offer Mobile.png" />
+            <img class="bank-offer-mobile" alt="" src="./public/Bank Offer Mobile@2x (1).png" />
         </section>
 
         <section class="download-mobile-app-section">
@@ -236,6 +236,7 @@
                         </div>
                     </li>
                     <img class="arrow" src="./public/Doted-line-arrow.svg" alt="">
+                    <img class="small-arrow" src="./public/Small Arrow.svg" alt="">
                     <li>
                         <div class="sell-process-info">
                             <img src="./public/group-6237.svg" alt="">
@@ -243,6 +244,7 @@
                         </div>
                     </li>
                     <img class="arrow" src="./public/Doted-line-arrow.svg" alt="">
+                    <img class="small-arrow" src="./public/Small Arrow.svg" alt="">
                     <li>
                         <div class="sell-process-info">
                             <img src="./public/group-6239.svg" alt="">
@@ -250,6 +252,7 @@
                         </div>
                     </li>
                     <img class="arrow" src="./public/Doted-line-arrow.svg" alt="">
+                    <img class="small-arrow" src="./public/Small Arrow.svg" alt="">
                     <li>
                         <div class="sell-process-info">
                             <img src="./public/group-6240.svg" alt="">
@@ -272,16 +275,19 @@
                         <div><span>Ticket selling price</span><b>SAR 100</b></div>
                     </li>
                     <img class="arrow" src="./public/Doted-line-arrow.svg" alt="">
+                    <img class="small-arrow" src="./public/Small Arrow.svg" alt="">
                     <li>
                         <img src="./public/group-6244.svg" alt="">
                         <div><span>Seller recieves</span><b>SAR 95</b></div>
                     </li>
                     <img class="arrow" src="./public/Doted-line-arrow.svg" alt="">
+                    <img class="small-arrow" src="./public/Small Arrow.svg" alt="">
                     <li>
                         <img src="./public/group-6245.svg" alt="">
                         <div><span>Fans pay</span><b>SAR 105</b></div>
                     </li>
                     <img class="arrow" src="./public/Doted-line-arrow.svg" alt="">
+                    <img class="small-arrow" src="./public/Small Arrow.svg" alt="">
                     <li>
                         <img src="./public/Event.png" alt="">
                         <div><span>EventAtBox recieves</span>
@@ -336,10 +342,10 @@
             </div>
             <div class="social-media">
                 <b>Follow Us</b>
-                <span><img src="./public/Facebook.png" alt=""><span>Facebook</span></span>
-                <span><img src="./public/Twitter.png" alt=""><span>Twitter</span></span>
-                <span><img src="./public/Instagram.png" alt=""><span>Instagram</span></span>
-                <span><img src="./public/Linkedin.png" alt=""><span>LinkedIn</span></span>
+                <span><img src="./public/Facebook.svg" alt=""><span>Facebook</span></span>
+                <span><img src="./public/Twitter.svg" alt=""><span>Twitter</span></span>
+                <span><img src="./public/Instagram.svg" alt=""><span>Instagram</span></span>
+                <span><img src="./public/Linkedin.svg" alt=""><span>LinkedIn</span></span>
                 <img class="down-arrow" src="./public/down-arrow.svg" alt="">
             </div>
         </section>
@@ -365,8 +371,11 @@
                 jQuery('.trending-events-image-section').slick({
                     infinite: true,
                     speed: 500,
+                    arrow: false,
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
                 });
             }
 
