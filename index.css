@@ -284,6 +284,13 @@
     display: grid !important;
 }
 
+.slick-slide {
+    float: left !important;
+    height: 100% !important;
+    min-height: 1px !important;
+    border-radius: 8px !important;
+}
+
 .slick-prev {
     display: none !important;
 }
@@ -1116,13 +1123,18 @@
         padding: 0 20px;
     }
 
+    .trending-events-image-section{
+        margin-top: 32px;
+    }
+
     .trending-events-image-wrapper {
         border-radius: var(--br-5xs);
         background-color: var(--color-whitesmoke-200);
         width: 300px;
         width: 100%;
         position: relative;
-        margin: 31.75px 20px 0 0 ;
+        /* margin: 31.75px 20px 0 0 ; */
+        margin: 0 20px 0 0 ;
     }
 
     .cards-offer-section {
