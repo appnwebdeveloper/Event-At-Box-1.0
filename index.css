@@ -1140,6 +1140,14 @@
         margin: 0 20px 0 0 ;
     }
 
+    .trending-events-image-wrapper {
+        flex: 1 0 0; /* flex-grow: 1; flex-basis: 0; */
+        min-height: 0;
+        /* transform: scale(0.666667);  */
+        flex: 0 0 66.666667%; /* 100/1.5 = 66.666667% */
+        margin: 0 5px; /* Optional: Add margin for spacing between slides */
+      }
+
     .slick-slider {
         height: auto !important;
         display: grid !important;
