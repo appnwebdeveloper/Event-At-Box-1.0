@@ -245,6 +245,7 @@
   border-radius: var(--br-5xs);
   background-color: var(--color-whitesmoke-200);
   width: 100%;
+  height: auto;
   margin-top: 31.75px;
   position: relative;
 }
@@ -943,7 +944,12 @@
     display: flex;
   }
 
-  .trending-events-image-wrapper, .trending-events-image-section img {
+  .trending-events-image-wrapper {
+    width: auto;
+    height: auto;
+  }
+
+  .trending-events-image-section img {
     width: auto;
   }
 
@@ -1049,8 +1055,21 @@
     border-radius: var(--br-5xs);
     background-color: var(--color-whitesmoke-200);
     width: 100%;
+    height: auto;
     margin: 0 20px 0 0;
     position: relative;
+  }
+
+  .slick-slider {
+    height: auto !important;
+    display: grid !important;
+  }
+
+  .slick-slide {
+    float: left !important;
+    border-radius: 8px !important;
+    height: 100% !important;
+    min-height: 1px !important;
   }
 
   .cards-offer-section {
