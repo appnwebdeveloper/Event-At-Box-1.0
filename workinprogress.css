@@ -1,0 +1,130 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.header {
+    margin: 0 80px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.header img {
+    width: 150px;
+    height: 40px;
+}
+
+.sidemenu-icon {
+    display: none;
+}
+
+.to-delight-you-soon {
+    position: relative;
+}
+
+.to-delight-you-soon img {
+    width: 100%;
+    height: calc(100% - 72px);
+    object-fit: fill;
+}
+
+.work-in-progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.work-in-progress h2 {
+    font-size: var(--font-size-14xl);
+    color: var(--color-white);
+    margin: 20px 0;
+}
+
+.work-in-progress h1 {
+    font-size: var(--font-size-40xl);
+    color: var(--color-white);
+    margin: 20px 0;
+}
+
+.work-in-progress button {
+    width: 280px;
+    height: 68px;
+    background-color: var(--color-orangered-100);
+    border-radius: 34px;
+    outline: none;
+    border: 0;
+}
+
+.work-in-progress button b {
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+
+@media only screen and (max-width: 920px) {
+    .to-delight-you-soon img {
+        object-fit: cover;
+    }
+
+    .work-in-progress h1 {
+        font-size: var(--font-size-35xl);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 56px;
+        margin: 0 20px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sidemenu-icon {
+        display: block;
+        /* width: auto !important; */
+        width: 20px !important;
+    }
+
+    .to-delight-you-soon img {
+        object-fit: cover;
+        height: calc(100% - 56PX);
+        width: 100%;
+    }
+
+    .opacity {
+        color: #000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 100%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .work-in-progress h2 {
+        font-size: var(--font-size-lg);
+    }
+
+    .work-in-progress h1 {
+        font-size: var(--font-size-12xl);
+    }
+
+    .work-in-progress {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .work-in-progress button {
+        width: 206px;
+        height: 56px;
+    }
+}
